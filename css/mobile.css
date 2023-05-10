@@ -1,0 +1,28 @@
+@media screen and (max-width: 576px) {
+  /* navbar */
+
+  .navbar {
+    justify-self: start;
+  }
+  .nav-item {
+    border: none;
+  }
+  .fullname {
+    display: none;
+  }
+
+  /* Chứng chỉ - Giải thưởng */
+  .certificate2 {
+    border-bottom: 2px solid #d6c08d;
+  }
+  .right {
+    border: none;
+    padding-left: 10px;
+  }
+
+  /* Dự án */
+  .project-time {
+    grid: none;
+    padding-left: 1.5rem;
+  }
+}

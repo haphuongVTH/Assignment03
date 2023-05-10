@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 auto;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  margin: auto;
+  display: block;
+  padding: 30px 50px;
+}
+
+/* BANNER */
+.banner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* NAVBAR */
+
+.fullname {
+  width: 15rem;
+}
+.nav-item {
+  border-left: 1px solid rgb(226, 226, 226);
+}
+
+.nav-link i {
+  color: #199cdb;
+}
+
+.nav-item:hover {
+  background-color: #e7d5d5;
+  border: 1px solid rgb(226, 226, 226);
+}
+
+/* MỤC TIÊU NGHỀ NGHIỆP-TT CÁ NHÂN */
+
+.target {
+  background: #f7f7f7;
+}
+.personal-info {
+  background-color: #f0f0f0;
+}
+.personal-info i {
+  color: #199cdb;
+  line-height: 1.5;
+}
+.target-details {
+  text-align: justify;
+  line-height: 1.8;
+}
+.info-details li {
+  list-style: none;
+  padding: 5px 0;
+}
+.info-details span {
+  width: 100px;
+  display: inline-block;
+  font-weight: bold;
+}
+.hide {
+  display: none;
+}
+
+/* THÔNG TIN NGHỀ NGHIỆP  */
+
+/* KINH NGHIỆM, HỌC VẤN, HOẠT ĐỘNG */
+
+/* Hover title */
+
+.pointer-open {
+  padding: 0.5rem 1.5rem;
+  margin: 0;
+  background-color: rgb(233, 233, 174);
+  border-radius: 25px;
+  cursor: default;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: medium;
+  display: none;
+}
+.title h1:hover .pointer-open {
+  display: inline-block;
+}
+
+/*  */
+.title {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  height: 7rem;
+}
+.icons {
+  font-size: xxx-large;
+}
+
+.job-details li {
+  list-style: none;
+}
+
+.timeline h4,
+.timeline i,
+.timeline p {
+  padding: 10px 10px 10px 30px;
+}
+.timeline i,
+.timeline p {
+  text-align: justify;
+}
+
+.date span {
+  background-color: #199cdb;
+  padding: 3px 20px;
+  border-radius: 25px;
+  color: #fff;
+}
+.timeline {
+  position: relative;
+}
+.timeline h4::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #199cdb;
+  border-radius: 50%;
+  top: 20px;
+  left: 5px;
+}
+
+/* SỞ THÍCH */
+.details {
+  /* margin-top: 2em; */
+  padding: 10px 10px 10px 30px;
+}
+.hobby {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.hobby i {
+  font-size: large;
+  padding: 0.5em;
+  border: 2px solid #199cdb;
+  border-radius: 50%;
+  margin: 0.1em;
+  text-align: center;
+}
+.hobby p {
+  text-align: center;
+  margin: 0.1em;
+}
+
+/* NGÔN NGỮ */ /* KĨ NĂNG */
+.blue-span {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.grey-span {
+  background: #7f8486;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+/* CHỨNG CHỈ-GIẢI THƯỞNG  */
+.certificate1 {
+  padding-bottom: 30px;
+  border-bottom: 2px solid #d6c08d;
+}
+.certificate-column1 {
+  text-align: justify;
+  display: flex;
+  padding-right: 2rem;
+}
+.right {
+  border-left: 2px solid #d6c08d;
+  padding-left: 10px;
+}
+.certificate-column1 img {
+  width: 70%;
+  height: auto;
+  padding-right: 10px;
+}
+.certificate-text h5 {
+  text-transform: uppercase;
+}
+
+/* DỰ ÁN */
+.project-title {
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-top: 1px solid rgb(226, 226, 226);
+}
+.project-time {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  border-top: 1px solid rgb(226, 226, 226);
+  /* justify-content: space-between; */
+}
+.year {
+  background-color: #199cdb;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+}
+.project-time i {
+  font-size: large;
+}
+.project-table {
+  text-align: justify;
+  border-top: 1px solid rgb(226, 226, 226);
+}
+/* Project charter */
+
+/* footer */
+footer {
+  margin: 1rem 0;
+}
+.footer ul {
+  list-style: none;
+  justify-content: center;
+  padding: 1.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer li {
+  padding: 0 5%;
+}
+.footer i {
+  color: #199cdb;
+  font-size: x-large;
+}
+
+/* digital-cv.html */
+.timeline-detail {
+  color: #fff;
+  background-color: #9e88ff;
+  border: 0.5px solid gray;
+  padding: 1rem;
+}
+.project-start,
+.project-date {
+  border-bottom: 0.5px #0000ff dashed;
+  width: 100%;
+}
+
+/* digital-cv.html */
+.timeline-detail {
+  color: #fff;
+  background-color: #9e88ff;
+  border: 0.5px solid gray;
+  padding: 1rem;
+}
+.project-start,
+.project-date {
+  border-bottom: 0.5px #0000ff dashed;
+  width: 100%;
+}

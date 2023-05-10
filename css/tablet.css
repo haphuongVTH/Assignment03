@@ -1,0 +1,24 @@
+@media (min-width: 576px) and (max-width: 768px) {
+  /* navbar */
+  .fullname {
+    display: none;
+  }
+
+  /* Chứng chỉ- Giải thưởng */
+  .certificate-column1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .certificate-column1 img {
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+  /* Dự án */
+  .project-time {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .project-icon {
+    grid-column: 2 / 3;
+  }
+}
